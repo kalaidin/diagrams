@@ -1,20 +1,20 @@
 {"type":"sequence",
 "name":"ElementInitialization",
 "base_type":"sequence",
-"connectors":[{"type":"lifeline","fromId":"0","toId":"0","epoints":[{"0":"424.0000457763672","1":"437"}],"labels":[]},{"type":"lifeline","fromId":"1","toId":"1","epoints":[{"0":"635.4667205810547","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"2","toId":"3","epoints":[{"0":"560","1":"155"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"4","epoints":[{"0":"629","1":"252"}],"labels":[]},{"type":"lifeline","fromId":"5","toId":"5","epoints":[{"0":"861.3333587646484","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"6","epoints":[{"0":"596","1":"329"}],"labels":[]},{"type":"llsequence","fromId":"4","toId":"3","epoints":[{"0":"560","1":"285"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"7","epoints":[{"0":"638","1":"379"}],"labels":[]}]
+"connectors":[{"type":"lifeline","fromId":"0","toId":"0","epoints":[{"0":"424.0000457763672","1":"440"}],"labels":[]},{"type":"lifeline","fromId":"1","toId":"1","epoints":[{"0":"635.4667205810547","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"2","toId":"3","epoints":[{"0":"560","1":"155"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"4","epoints":[{"0":"629","1":"252"}],"labels":[]},{"type":"lifeline","fromId":"5","toId":"5","epoints":[{"0":"861.3333587646484","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"6","epoints":[{"0":"596","1":"329"}],"labels":[]},{"type":"llsequence","fromId":"4","toId":"3","epoints":[{"0":"560","1":"285"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"7","epoints":[{"0":"638","1":"379"}],"labels":[]}]
 ,"elements":[{"width":"150",
 "left":"336.0000457763672",
-"top":"37",
+"top":"40",
 "selected":"true",
 "ctx_menu":"sequence",
 "type":"objinstance",
-"pageY":"37",
+"pageY":"40",
 "pageX":"336.0000457763672",
 "description":"Object Instance",
 "menu":"vp-component-menu",
 "image":["[object Object]"]
 ,"z-index":"101",
-"name":":$.Element",
+"name":"::$.Element",
 "methods":["_createDiagram()()","getDescription()()","_update()()","_getCreateOptions()()","_create()()","_init()()","_baseinit()()","destroy()()","widget()()","option()()","_setOptions()()","_setOption()()","_trigger()()"]
 ,"id":"0",
 "dropped":["3"]
@@ -29,7 +29,7 @@
 "menu":"vp-component-menu",
 "image":["[object Object]"]
 ,"z-index":"102",
-"name":":$.class",
+"name":"::$.class",
 "methods":["_getAux()()","addMethod()()","addField()()","_update()()","_create()()","_init()()","getName()()","getAux()()","_baseinit()()","_setOption()()","onDragStart()()","onDragMove()()","onDragStop()()","_createDiagram()()","getDescription()()","_getCreateOptions()()","destroy()()","widget()()","option()()","_setOptions()()","_trigger()()"]
 ,"id":"1",
 "dropped":["2","4","7"]
@@ -54,9 +54,9 @@
 "id":"3"},{"width":"15",
 "height":"50",
 "left":"614.2333831787109",
-"top":"239.21665954589844",
+"top":"239.1999969482422",
 "type":"llport",
-"pageY":"239.21665954589844",
+"pageY":"239.1999969482422",
 "pageX":"614.2333831787109",
 "menu":"vp-component-menu",
 "z-index":"105",
@@ -71,7 +71,7 @@
 "menu":"vp-component-menu",
 "image":["[object Object]"]
 ,"z-index":"106",
-"name":":element",
+"name":"::element",
 "methods":["_create()()","_update()()","_init()()","_baseinit()()","_setOption()()","onDragStart()()","onDragMove()()","onDragStop()()","_createDiagram()()","getDescription()()","_getCreateOptions()()","destroy()()","widget()()","option()()","_setOptions()()","_trigger()()"]
 ,"id":"5",
 "dropped":["6"]
@@ -93,6 +93,19 @@
 "pageX":"614.2333831787109",
 "menu":"vp-component-menu",
 "z-index":"108",
-"id":"7"}]
+"id":"7"},{"width":"150",
+"left":"171.99998474121094",
+"top":"37",
+"selected":"true",
+"ctx_menu":"sequence",
+"type":"objinstance",
+"title":"Object Instance",
+"menu":"us-objinstance-menu",
+"icon":"./dm/icons/us/es/component/InstanceSpecification.png",
+"z-index":"109",
+"name":":New",
+"id":"8",
+"pageX":"171.99998474121094",
+"pageY":"37"}]
 ,"fullname":"/diagrams/ElementInitialization.json",
 "viewid":"Github"}
