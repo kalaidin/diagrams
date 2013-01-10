@@ -5,6 +5,7 @@
 ,"elements":[{"width":"150",
 "left":"335.9833679199219",
 "top":"40",
+"selected":"true",
 "ctx_menu":"sequence",
 "type":"objinstance",
 "pageY":"40",
@@ -93,8 +94,9 @@
 "menu":"vp-component-menu",
 "z-index":"108",
 "id":"7"},{"width":"150",
-"left":"173.91665649414062",
-"top":"40",
+"left":"172.93331909179688",
+"top":"37",
+"selected":"true",
 "ctx_menu":"sequence",
 "type":"objinstance",
 "title":"Object Instance",
@@ -103,7 +105,7 @@
 "z-index":"109",
 "name":":::New",
 "id":"8",
-"pageX":"173.91665649414062",
-"pageY":"40"}]
+"pageX":"172.93331909179688",
+"pageY":"37"}]
 ,"fullname":"/diagrams/ElementInitialization.json",
 "viewid":"Github"}
