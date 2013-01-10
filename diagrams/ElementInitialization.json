@@ -1,20 +1,19 @@
 {"type":"sequence",
 "name":"ElementInitialization",
 "base_type":"sequence",
-"connectors":[{"type":"lifeline","fromId":"0","toId":"0","epoints":[{"0":"423.9999694824219","1":"440"}],"labels":[]},{"type":"lifeline","fromId":"1","toId":"1","epoints":[{"0":"635.4667053222656","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"2","toId":"3","epoints":[{"0":"560","1":"155"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"4","epoints":[{"0":"629","1":"252"}],"labels":[]},{"type":"lifeline","fromId":"5","toId":"5","epoints":[{"0":"861.3333435058594","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"6","epoints":[{"0":"596","1":"329"}],"labels":[]},{"type":"llsequence","fromId":"4","toId":"3","epoints":[{"0":"560","1":"285"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"7","epoints":[{"0":"638","1":"379"}],"labels":[]}]
+"connectors":[{"type":"lifeline","fromId":"0","toId":"0","epoints":[{"0":"423.9833679199219","1":"440"}],"labels":[]},{"type":"lifeline","fromId":"1","toId":"1","epoints":[{"0":"635.4667053222656","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"2","toId":"3","epoints":[{"0":"560","1":"155"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"4","epoints":[{"0":"629","1":"252"}],"labels":[]},{"type":"lifeline","fromId":"5","toId":"5","epoints":[{"0":"861.3333435058594","1":"440"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"6","epoints":[{"0":"596","1":"329"}],"labels":[]},{"type":"llsequence","fromId":"4","toId":"3","epoints":[{"0":"560","1":"285"}],"labels":[]},{"type":"llsequence","fromId":"3","toId":"7","epoints":[{"0":"638","1":"379"}],"labels":[]}]
 ,"elements":[{"width":"150",
-"left":"335.9999694824219",
+"left":"335.9833679199219",
 "top":"40",
-"selected":"true",
 "ctx_menu":"sequence",
 "type":"objinstance",
 "pageY":"40",
-"pageX":"335.9999694824219",
+"pageX":"335.9833679199219",
 "description":"Object Instance",
 "menu":"vp-component-menu",
 "image":["[object Object]"]
 ,"z-index":"101",
-"name":":::$.Element",
+"name":"::::$.Element",
 "methods":["_createDiagram()()","getDescription()()","_update()()","_getCreateOptions()()","_create()()","_init()()","_baseinit()()","destroy()()","widget()()","option()()","_setOptions()()","_setOption()()","_trigger()()"]
 ,"id":"0",
 "dropped":["3"]
@@ -29,7 +28,7 @@
 "menu":"vp-component-menu",
 "image":["[object Object]"]
 ,"z-index":"102",
-"name":":::$.class",
+"name":"::::$.class",
 "methods":["_getAux()()","addMethod()()","addField()()","_update()()","_create()()","_init()()","getName()()","getAux()()","_baseinit()()","_setOption()()","onDragStart()()","onDragMove()()","onDragStop()()","_createDiagram()()","getDescription()()","_getCreateOptions()()","destroy()()","widget()()","option()()","_setOptions()()","_trigger()()"]
 ,"id":"1",
 "dropped":["2","4","7"]
@@ -44,11 +43,11 @@
 "z-index":"103",
 "id":"2"},{"width":"15",
 "height":"240",
-"left":"403.4999694824219",
+"left":"403.4833679199219",
 "top":"146.11666870117188",
 "type":"llport",
 "pageY":"146.11666870117188",
-"pageX":"403.4999694824219",
+"pageX":"403.4833679199219",
 "menu":"vp-component-menu",
 "z-index":"104",
 "id":"3"},{"width":"15",
@@ -71,7 +70,7 @@
 "menu":"vp-component-menu",
 "image":["[object Object]"]
 ,"z-index":"106",
-"name":":::element",
+"name":"::::element",
 "methods":["_create()()","_update()()","_init()()","_baseinit()()","_setOption()()","onDragStart()()","onDragMove()()","onDragStop()()","_createDiagram()()","getDescription()()","_getCreateOptions()()","destroy()()","widget()()","option()()","_setOptions()()","_trigger()()"]
 ,"id":"5",
 "dropped":["6"]
@@ -94,18 +93,17 @@
 "menu":"vp-component-menu",
 "z-index":"108",
 "id":"7"},{"width":"150",
-"left":"148.96664428710938",
-"top":"37",
-"selected":"true",
+"left":"173.91665649414062",
+"top":"40",
 "ctx_menu":"sequence",
 "type":"objinstance",
 "title":"Object Instance",
 "menu":"us-objinstance-menu",
 "icon":"./dm/icons/us/es/component/InstanceSpecification.png",
 "z-index":"109",
-"name":"::New",
+"name":":::New",
 "id":"8",
-"pageX":"148.96664428710938",
-"pageY":"37"}]
+"pageX":"173.91665649414062",
+"pageY":"40"}]
 ,"fullname":"/diagrams/ElementInitialization.json",
 "viewid":"Github"}
